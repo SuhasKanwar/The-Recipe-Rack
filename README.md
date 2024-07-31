@@ -27,4 +27,4 @@
 - View detailed instructions and ingredient lists for each recipe.
 
 ## Contributors
-Suhas Kanwar
+**Suhas Kanwar**
