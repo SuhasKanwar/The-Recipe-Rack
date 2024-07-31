@@ -1,5 +1,7 @@
 # The Recipe Rack
 
+![Project_003_The_Recipe_Rack](https://github.com/user-attachments/assets/42ffe242-24de-4385-b408-50f70f2894c4)
+
 **The Recipe Rack** is a responsive website that offers a collection of detailed dessert recipes. The site features organized sections for each recipe, including ingredients and instructions, with high-quality images for each dish. It provides a user-friendly navigation menu with dropdowns for quick access to different recipes and employs custom CSS to ensure a consistent and visually appealing design across various devices.
 
 ## Project Structure
