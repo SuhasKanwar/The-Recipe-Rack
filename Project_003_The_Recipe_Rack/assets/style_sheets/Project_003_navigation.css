@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    background-color: #504071b6;
+    padding-left: 80px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#navList{
+    width: 100%;
+}
+#navItems{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1.7rem;
+    font-weight: 800;
+    transition: all 0.2s linear 0s;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    padding: 14px 16px;
+    transition: all 0.2s linear 0s;
+}
+.box:hover{
+    background-color: red;
+}
+.dropdown {
+    overflow: hidden;
+}
+.dropdown .dropbtn{
+    font-size: 1.5rem;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+.nav a:hover, .dropdown:hover .dropbtn{
+    background-color: red;
+}
+button{
+    transition: all 0.2s linear 0s;
+}
+button:hover{
+    background-color: red;;
+}
